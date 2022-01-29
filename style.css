@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    font-family: 'Playfair Display', serif;
+}
+section{
+    height: 500px;
+}
+.color{
+    color: orchid;
+}
+/* This is for the first section */
+.firstsection{
+    background-image: url("Image/header-bg.png");
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+/* This is for the first div */
+.firstdiv{
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+/* Orientation the image of the div */
+.firstdiv img{
+    width: 70%;
+    margin-top: 30%;
+    margin-left: 30%;
+}
+/* For picture orientation */
+.extra{
+    margin-top: 15%;
+    margin-left: 20%;
+}
+/* For Button */
+.Button{
+    text-decoration: none;
+    border: solid 2px gray;
+    background-color: gray;
+    color: rgb(253, 253, 253);
+    padding: 5px;
+    border-radius: 3px;
+}
+/* This is for the second section */
+.secondsection{
+    margin-top: 10px;
+    background-image: url("Image/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.seconddiv{
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+.secondsection img{
+    width: 70%;
+    margin-left: 30%;
+}
+.extra1{
+    margin-left: 20%;
+    margin-top: 8%;
+}
+
+/* Third section work from here.*/
+.thirdsection{
+    margin-top: 10px;
+    background-image: url("Image/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.thirddiv{
+    width: 30%;
+    float: left;
+}
+.thirdsection img{
+    width: 100%;
+    margin-left: 15%;
+}
+/*Fourth section work from here*/
+.fourthsection{
+    background-image: url("Image/footer-bg.png");
+    background-size: 80%;
+    text-align: center;
+    margin-top: 5px;
+}
+.divfourth{
+    margin-top: 7%;
+    margin-left: 40%;
+    border-radius: 5px;
+    border: solid 3px orchid;
+    width: 20%;
+    background-color: orchid;
+}
+
+/* Work is done */
